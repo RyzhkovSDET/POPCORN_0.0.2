@@ -14,6 +14,7 @@ def load_coins():
             return list(dict.fromkeys(coins))
 
     except:
+
         return []
 
 
